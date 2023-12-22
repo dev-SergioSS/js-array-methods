@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Методи масивів в JavaScript</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th>Метод</th>
+				<th>Що вертає</th>
+				<th>Опис</th>
+				<th>Приклад</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- Ваші рядки тут -->
+		</tbody>
+	</table>
+
+	<section>
+		<h2>Різниця між map() & forEach()</h2>
+		<ul>
+			<li>forEach завжди вертає undefined.Через це його не використаєш одночасно з іншими методами
+			</li>
+			<li>forEach() - Якшо потрібно зробити лише дії з кожним елементом
+				<br>
+				map() - Якшо потрібно отримати новий масив на основі вихідних даних
+			</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Sort()</h2>
+		<ul>
+			<li>Сортування чисел по зростанню - sort((a, b) => a - b)</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Копіювання масиву</h2>
+		<ul>
+			<li>clone = [...origin]</li>
+			<li>clone = Array.from(origin)</li>
+			<li>clone = origin.slice()</li>
+			<li>clone = origin.concat()</li>
+			<li>clone = origin.map(el => el)- Самий повільний спосіб!</li>
+		</ul>
+	</section>
+
+	<script src="app.js"></script>
+</body>
+
+</html>

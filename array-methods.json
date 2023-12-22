@@ -1,0 +1,188 @@
+{
+  "methods": [
+		{
+      "name": "push()",
+      "description": "Додає один чи більше елементів в кінець масиву та повертає нову довжину масиву.",
+      "returns": "Нова довжина масиву",
+      "example": "array.push(element1, ..., elementN)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/push",
+      "mutating": true
+    },
+    {
+      "name": "pop()",
+      "description": "Видаляє останній елемент масиву та повертає його значення.",
+      "returns": "Значення останнього елемента",
+      "example": "array.pop()",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/pop",
+      "mutating": true
+    },
+		{
+      "name": "unshift()",
+      "description": "Додає один чи більше елементів на початок масиву та повертає нову довжину масиву.",
+      "returns": "Нова довжина масиву",
+      "example": "array.unshift(element1, ..., elementN)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift",
+      "mutating": true
+    },
+    {
+      "name": "shift()",
+      "description": "Видаляє перший елемент масиву та повертає його значення, зміщаючи індекси інших елементів.",
+      "returns": "Значення видаленого елемента",
+      "example": "array.shift()",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/shift",
+      "mutating": true
+    },
+    
+    {
+      "name": "reverse()",
+      "description": "Змінює порядок елементів масиву, роблячи його реверс.",
+      "returns": "Змінений масив",
+      "example": "array.reverse()",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
+      "mutating": true
+    },
+    {
+      "name": "sort()",
+      "description": "Сортує елементи масиву. По замовчуванню, сортує елементи як рядки (1,11, 2,3, A,B, a,b).",
+      "returns": "Змінений масив",
+      "example": "array.sort(compareFunction)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
+      "mutating": true
+    },
+    
+		{
+      "name": "fill()",
+      "description": "Заповнює всі елементи масиву сталим значенням, вказаним користувачем, від початку і до кінця.",
+      "returns": "Змінений масив",
+      "example": "array.fill(value, start, end)",
+      "mutating": true,
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/fill"
+    },
+		{
+      "name": "splice()",
+      "description": "Змінює вміст масиву, видаляючи або замінюючи існуючі елементи та/або додаючи нові елементи.",
+      "returns": "Змінений масив",
+      "example": "array.splice(start, deleteCount, item1, ..., itemN)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/splice",
+      "mutating": true
+    },
+
+		{
+      "name": "map()",
+      "description": "Створює новий массив зі зміненим кожним елементом (або вибірково) на основі оригінального",
+      "returns": "Новий масив",
+      "example": "array.map(callback)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+    },
+		{
+      "name": "forEach()",
+      "description": "Викликає задану функцію один раз для кожного елемента масиву без створення нового масиву.",
+      "returns": "undefined",
+      "example": "array.forEach(callback)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
+    },
+		{
+      "name": "includes()",
+      "description": "Визначає, чи містить масив конкретний елемент і повертає true або false відповідно.",
+      "returns": "Boolean",
+      "example": "array.includes(searchElement, fromIndex)",
+      "mutating": false,
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/includes"
+    },
+    {
+      "name": "concat()",
+      "description": "Створює новий масив, який містить елементи двох або більше масивів.",
+      "returns": "Новий масив",
+      "example": "array1.concat(array2)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/concat"
+    },
+    {
+      "name": "filter()",
+      "description": "Створює новий масив, що містить елементи, які відповідають заданій умові.",
+      "returns": "Новий масив",
+      "example": "array.filter(callback)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"
+    },
+    
+    {
+      "name": "slice()",
+      "description": "Створює новий масив, який містить вибрані елементи від або до вказаного індексу оригінального масиву.",
+      "returns": "Новий масив",
+      "example": "array.slice(start, end)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/slice"
+    },
+    {
+      "name": "join()",
+      "description": "Повертає рядок, який представляє собою всі елементи масиву, розділені вказаним роздільником.",
+      "returns": "Рядок",
+      "example": "array.join(separator)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/join"
+    },
+    
+    
+    {
+      "name": "every()",
+      "description": "Перевіряє, чи задовольняють всі елементи масиву вказаній умові та повертає `true` або `false`.",
+      "returns": "Boolean",
+      "example": "array.every(callback)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/every"
+    },
+    {
+      "name": "some()",
+      "description": "Перевіряє, чи задовольняє хоча б один елемент масиву вказаній умові та повертає `true` або `false`.",
+      "returns": "Boolean",
+      "example": "array.some(callback)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/some"
+    },
+    {
+      "name": "reduce()",
+      "description": "Застосовує функцію аккумулятора до кожного елемента масиву (зліва направо), зменшуючи його до одного значення.",
+      "returns": "Результат",
+      "example": "array.reduce(callback, initialValue)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce"
+    },
+    {
+      "name": "reduceRight()",
+      "description": "Застосовує функцію аккумулятора до кожного елемента масиву (справа наліво), зменшуючи його до одного значення.",
+      "returns": "Результат",
+      "example": "array.reduceRight(callback, initialValue)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/ReduceRight"
+    },
+    {
+      "name": "indexOf()",
+      "description": "Повертає індекс першого знайденого елемента у масиві; якщо елемент не знайдено, повертає -1.",
+      "returns": "Індекс або -1",
+      "example": "array.indexOf(element)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf"
+    },
+    {
+      "name": "lastIndexOf()",
+      "description": "Повертає індекс останнього знайденого елемента у масиві; якщо елемент не знайдено, повертає -1.",
+      "returns": "Індекс або -1",
+      "example": "array.lastIndexOf(element)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf"
+    },
+    {
+      "name": "isArray()",
+      "description": "Перевіряє, чи є об'єкт масивом, та повертає `true` або `false`.",
+      "returns": "Boolean",
+      "example": "Array.isArray(value)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray"
+    },
+    {
+      "name": "find()",
+      "description": "Повертає перший елемент масиву, який задовольняє вказану умову, або `undefined`, якщо елемент не знайдено.",
+      "returns": "Знайдений елемент або `undefined`",
+      "example": "array.find(callback)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/find"
+    },
+    {
+      "name": "findIndex()",
+      "description": "Повертає індекс першого елемента масиву, який задовольняє вказану умову, або -1, якщо елемент не знайдено.",
+      "returns": "Індекс або -1",
+      "example": "array.findIndex(callback)",
+      "mdnUrl": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex"
+		}
+		
+	]
+}
